@@ -16,7 +16,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.example.demoo.R;
 
 public class GalleryFragment extends Fragment {
-    ImageView imageView;
+    ImageView Image;
 
     private GalleryViewModel galleryViewModel;
 
@@ -25,10 +25,10 @@ public class GalleryFragment extends Fragment {
         galleryViewModel = ViewModelProviders.of(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         final ImageView imageView = root.findViewById(R.id.image_gallery);
-        galleryViewModel.getText().observe(this, new Observer<String>() {
+        galleryViewModel.getImage().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
-                textView.setText(s);
+                ImageView.setImage(s);
             }
         });
         return root;
