@@ -12,4 +12,9 @@
     <string name="menu_tools">Timings</string>
     <string name="menu_share">Music</string>
     <string name="menu_send">Books</string>
+    <string name="paragraph">Android is a complete set of software for mobile devices such as tablet computers, notebooks, smartphones, electronic book readers, set-top boxes etc.
+It contains a linux-based Operating System, middleware and key mobile applications.
+It can be thought of as a mobile operating system. But it is not limited to mobile only. It is currently used in various devices such as mobiles, tablets, televisions etc.Android is a complete set of software for mobile devices such as tablet computers, notebooks, smartphones, electronic book readers, set-top boxes etc.
+It contains a linux-based Operating System, middleware and key mobile applications.
+It can be thought of as a mobile operating system. But it is not limited to mobile only. It is currently used in various devices such as mobiles, tablets, televisions etc.</string>
 </resources>
