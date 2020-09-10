@@ -25,12 +25,15 @@ public class GalleryFragment extends Fragment {
         galleryViewModel = ViewModelProviders.of(this).get(GalleryViewModel.class);
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
         final ImageView imageView = root.findViewById(R.id.image_gallery);
-        galleryViewModel.getImage().observe(this, new Observer<String>() {
+        /*galleryViewModel.getImage().observe(this, new Observer<String>() {
             @Override
-            public void onChanged(@Nullable String s) {
+           public void onChanged(@Nullable String s) {
                 ImageView.setImage(s);
             }
         });
+
+         */
         return root;
     }
 }
+
